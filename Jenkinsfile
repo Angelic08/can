@@ -22,7 +22,7 @@ pipeline{
             steps {
                 bat '''
                 call venv\\Scripts\\activate
-                pytest test.py
+                pytest test_num.py
                 '''            
             }
         }
@@ -33,7 +33,7 @@ pipeline{
 
                 bat '''
                 call venv\\Scripts\\activate
-                C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python312\\python.exe add.py
+                C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python312\\python.exe add_num.py
                 '''
             }
         }
